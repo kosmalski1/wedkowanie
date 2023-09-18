@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 150px 300px;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+footer,
+header {
+    background-color: #00838F;
+    color: white;
+    padding: 5px;
+    font-size: 130%;
+    text-align: center;
+}
+.lewy{background-color: #efefef;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.prawy{
+text-align: center;
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+background-color: #4FB3BF;}
+img{box-shadow: 10px 10px 7px 0px rgba(105, 105, 105, 1);
+margin: 20px;}
+table, tr , td, th{border: solid 1px #4FB3BF;
+border-collapse: collapse;
+}
+table{width: 80%;
+margin-left: 5%;}
+tr,td{padding: 4px;}
+td:hover{background-color: #4FB3BF;
+}
